@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Basic -->
+	<title>Prominent Capital Firm</title>
+	<!-- JS file -->
+	<script src="script.js" type="text/javascript"></script>
+	<!-- Font Awesome icons -->
+	<script src="https://kit.fontawesome.com/e9107134a1.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/png" href="favicon.jpg"/>
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="font-awesome.css">
+	<!-- Prominent CSS Styles  -->
+	<link rel="stylesheet" href="styles.css">
+	<!-- Define Charset -->
+	<meta charset="UTF-8" />
+	<!-- IE compatible -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Responsive Metatag -->
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+</head>
+<body>
+	<!-- Start header section for large screens-->
+	<div class="header">
+		<div class="logo">
+			<a href="index.html">
+				<img src="pcf1.jpg" alt="prominent" style="border-radius:50%;">
+			</a>
+		</div>
+		<div class="nav">
+			<div class="ABOUT">
+				<a class="navbuttons" href="index.html">Home</a>
+			</div>
+			<div class="ABOUT">
+				<a class="navbuttons" href="about.html">About Us</a>
+			</div>
+			<div class="WWD">
+				<a class="navbuttons" href="services.html">Services</a>
+			</div>
+			<div class="CONTACT">
+				<a class="navbuttons" href="support.html">Support</a>
+			</div>
+		</div>
+	<!-- End header section for large screens -->
+	<!-- Start header section for mobile -->
+		<div class="mobileShow">
+			<div class="topnav">
+				<div class="myLinks" id="myLinks">
+					<a href="index.html">Home</a>
+					<a href="about.html">About Us</a>
+					<a href="services.html">Services</a>
+					<a href="support.html">Support</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+	<!-- End header section for mobile -->
+	</div>
+	<!-- End header section -->
+	<!-- Start sliders -->
+	<div class="main-image">
+		<img class="image" src="pcf2.jpg" alt="prominent">
+		<img class="image" src="pcf3.jpg" alt="prominent">
+		<img class="image" src="pcf4.jpg" alt="prominent">
+		<img class="image" src="pcf5.jpg" alt="prominent">
+	</div>
+	<!-- End sliders -->
+	<!-- Start Javascript for sliders -->
+		<script>
+			var slideIndex = 0;
+			carousel();
+			
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("image");
+				for (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+				 slideIndex++;
+				 if (slideIndex > x.length) {slideIndex = 1} 
+				 x[slideIndex-1].style.display = "block";
+				 setTimeout(carousel, 3000); }
+		</script>
+	<!-- End Javascript for sliders -->
+	<!-- Start about us section -->
+	<div class="about-us">
+		<div class="about-us-image">
+			<img src="pcf6.jpg" alt="prominent" style="max-width:100%;">
+		</div>
+		<div class="vision-mission">
+			<h1><span class="vision-mission-textheader">VISION STATEMENT</span></h1>
+			<p><span class="vision-mission-text">To build a nation of Financial Freedom.</span></p>
+			<h1><span class="vision-mission-textheader">MISSION STATEMENT</span></h1>
+			<p><span class="vision-mission-text">To create a whole new sense of Financial freedom to the masses; <br>especially to the non-believers and victims of fraud, giving the people <br>a new mindset.</span></p>
+		</div>
+	</div>
+	<!-- End about us section -->
+	<!-- Start packages section -->
+	<div class="package-row">
+		<h2>Investment Choices</h2>
+		<div class="packages">
+			<div class="package-column">
+				<h3 class="package-title"><b>Short Term Plan</b></h3>
+				<hr>
+				<h3 class="duration">25 days</h3>
+				<hr>
+				<div class="percentage">
+					<span class="percentage-profit">(Capital + Interest) - 20%</span>
+				</div>
+				<a href="services.html" class="learn-more">Learn more</a>
+			</div>
+			<div class="package-column">
+				<h3 class="package-title"><b>Long Term Plan</b></h3>
+				<hr>
+				<h3 class="duration">6 months</h3>
+				<hr>
+				<div class="percentage">
+					<span class="percentage-profit">(Capital + Interest) - 150%</span>
+				</div>
+				<a href="services.html" class="learn-more">Learn more</a>
+			</div>
+		</div>
+		<h3 class="special-target"><b>Special Target Plan</b></h3>
+		<p><span class="special-target-desc">We also have a special target plan. This Package is about investing towards achieving a particular target or<br>Project; like Buying a Car, a House, paying your rent or school fees.<br>Our work is to help grow your initial funds towards your desired goals.<br>Terms and conditions apply to the plan.</span></p>
+	</div>
+	<div class="forex">
+		<h2>WHAT WE WILL DO FOR YOU</h2>
+		<div class="forex-container">
+			<div class="forex-image">
+				<img src="pcf7.jpg" alt="prominent" style="max-width:100%;">
+			</div>
+			<div class="forex-text">
+				<p><span class="executive-summary-text1">Prominent Capital Firm is an investment firm that is basically structured<br>for capital investment to yield a fascinating interest at the end of 25 <br>working days to her investors.<br>Prominent Capital Firm developed a plan aimed at causing shift in the<br>financial market and capital invested by the investors by paying off 20%<br>interest at the end 25 working days depending on the capital invested.<br>We change the investment plan of individuals, firms and other entities by<br>trading their capitals to yield an interest of 20% at the end of 25<br>working days.</span></p>
+			</div>
+		</div>
+	</div>
+	<!-- End packages section -->
+	<!-- Slideshow container -->
+	<div class="testimonies-container">
+		<h2>TESTIMONIES</h2>
+		<!-- Full-width slides/testimonies -->
+		<div class="testimonies">
+			<q>Prominent to me, has been the source of my Income. They are reliable when it comes to growing capital and satisfying the customers.</q>
+			<p class="author">- Akande Oluwatoyin <br><span class="author2">A Civil servant at federal college of animal health and Production.(MOOR)<br>+234 803 066 2412</span></p>
+		</div>
+		<div class="testimonies">
+			<q>PCF is a promising investment company that fulfuils its promise of payment as at when due. At first, I was scared of trying to save with PCF but along the line, I discovered they weren’t “FAKE” nor “SCAM”.</q>
+			<p class="author">- Busola Adegbite <br><span class="author2">+234 806 119 4367</span></p>
+		</div>
+		<div class="testimonies">
+			<q>I have been with PCF since 2019 and I can boldly say, being abroad, has never been an hindrance investing with them. They are Reliable and dependable.</q>
+			<p class="author">- Ismail Mayowa <br><span class="author2">+491 521 139 38005<br>97421 Schweinfurt, Germany</span></p>
+		</div>
+	</div>
+	<!-- Dots/bullets/indicators -->
+	<div class="dot-container">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	<!-- Start Javascript for testimonies -->
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("testimonies");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1} 
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none"; 
+			}
+			for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+			}
+		  slides[slideIndex-1].style.display = "block"; 
+		  dots[slideIndex-1].className += " active";
+		}
+	</script>
+	<!-- End Javascript for testimonies -->
+	<!-- Start footer section -->
+	<div class="footer">
+		<div class="whatsapp-chat1">
+			<a href="https://wa.me/2347025612169" style="text-decoration:none;"><span class="whatsapp-class-text1">Chat with us</span></a>
+		</div>
+		<div class="footer1">
+			<div class="footer2">
+				<h3>+234(0)7025612169</h3>
+				<h3>pcf360@gmail.com</h3>
+				<h3>Prominent Palace, Aregbe,<br>Abeokuta, Nigeria.<br></h3>
+			</div>
+			<div class="footer2">
+				<ul style="list-style-type:none; text-align:left;">
+					<li><h3><a href="index.html">Home</a></h3></li>
+					<li><h3><a href="about.html">About us</a></h3></li>
+					<li><h3><a href="services.html">Services</a></h3></li>
+					<li><h3><a href="support.html">Support</a></h3></li>
+				</ul>
+			</div>
+			<div class="footer2">
+				<div class="social-icons">
+					<h4>Connect with us on</h4>
+					<div class="icon-buttons">
+						<a href="https://wa.me/2347025612169"><i class="fa fa-whatsapp" style="color:green; font-size:30px;"></i></a>
+					</div>
+					<div class="icon-buttons">
+						<a href="https://facebook.com/Pcf_invest"><i class="fa fa-facebook-square" style="color:#FFFFFF; font-size:30px;"></i></a>
+					</div>
+					<div class="icon-buttons">
+						<a href="https://instagram.com/Pcf_invest"><i class="fa fa-instagram" style="color:#FFFFFF; font-size:30px;"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<h5><span class="copyright">© 2020 Prominent Capital Firm. All Rights Reserved.</span></h5>
+	</div>
+	<!-- End footer section -->
+</body>
+</html>
